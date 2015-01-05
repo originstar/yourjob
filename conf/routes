@@ -1,0 +1,10 @@
+# Routes
+
+# Home page
+GET    /                                              cn.originstar.yourjob.system.dashboard.controller.HomePageController.index()
+
+# Javascript routing
+GET    /assets/javascripts/routes.js                  controllers.Application.javascriptRoutes()
+
+# Map static resources from the /public folder to the /assets URL path
+GET    /assets/*document                              controllers.Assets.at(path="/public", document)
